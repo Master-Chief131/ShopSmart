@@ -1,49 +1,85 @@
 # ShopSmart
 
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+ShopSmart es una aplicación web diseñada para hacer la compra más fácil y eficiente. Ayuda a los usuarios a comparar precios, encontrar descuentos y gestionar sus listas de la compra, todo en un mismo sitio.
 
-## Descripción
+## Features
 
-**SuperCompare** es una herramienta de web scraping diseñada para extraer información de productos, precios e imágenes de diferentes supermercados y mostrar una comparación detallada. 
-
-## Tabla de Contenidos
-
-- [Instalación](#instalación)
-- [Uso](#uso)
-- [Contribuir](#contribuir)
-- [Licencia](#licencia)
+- **Comparador de precios:** Compara precios de varias tiendas online para encontrar las mejores ofertas.
+- **Buscador de descuentos:** Descubre descuentos y códigos promocionales para tu supermercado favoritas.
+- **Gestión de listas de la compra:** Crea y gestiona listas de la compra con facilidad.
+- **Reseñas de usuarios:** Lee y escribe reseñas de productos.
+- **Recomendaciones personalizadas:** Obtén recomendaciones de productos basadas en tus hábitos de compra.
 
 ## Instalación
 
-1. Clona el repositorio:
+Para instalar y correr ShopSmart localmente, sigue estos pasos:
+
+1. **Clonar el repositorio:**
     ```bash
-    git clone https://github.com/tu-usuario/SuperCompare.git
-    cd SuperCompare
+    git clone https://github.com/Master-Chief131/ShopSmart.git
     ```
 
-2. Instala las dependencias:
+2. **Navegar al directorio del proyecto:**
     ```bash
-    pip install -r requirements.txt
+    cd ShopSmart
     ```
+
+3. **Instalar dependencias:**
+    ```bash
+    npm install
+    ```
+
+4. **Iniciar el servidor:**
+    ```bash
+    npm start
+    ```
+
+6. Abra su navegador y vaya a `http://localhost:3000` para ver la aplicación.
 
 ## Uso
 
-1. Configura los supermercados y productos que deseas comparar en el archivo `config.json`.
-2. Ejecuta el script principal:
-    ```bash
-    python main.py
-    ```
+1. **Inscríbete:** Crea una cuenta o inicia sesión si ya tienes una.
+2. **Buscar productos:** Utiliza la barra de búsqueda para encontrar los productos que te interesan.
+3. **Comparar precios:** Ver comparativas de precios de diferentes tiendas.
+4. **Añadir a la lista de la compra:** Añade productos a tu lista de la compra para futuras consultas.
+5. **Buscar descuentos:** Comprueba si hay descuentos y códigos promocionales disponibles.
 
 ## Contribuir
 
-¡Las contribuciones son bienvenidas! Sigue estos pasos para contribuir:
+¡Bienvenidas las contribuciones de la comunidad! Para contribuir a ShopSmart, siga estos pasos:
 
-1. Realiza un fork del proyecto.
-2. Crea una nueva rama (`git checkout -b mejora/increible-mejora`).
-3. Realiza tus cambios y haz commit (`git commit -m 'Añadir una mejora increíble'`).
-4. Sube tus cambios a tu rama (`git push origin mejora/increible-mejora`).
-5. Abre un Pull Request.
+1. **Fork el repositorio:**
+    Haga clic en el botón "Fork" en la esquina superior derecha de este repositorio.
+
+2. **Crear una nueva rama:**
+    ```bash
+    git checkout -b feature/your-feature-name
+    ```
+
+3. **Realiza tus cambios y confirmalos:**
+    ```bash
+    git commit -m "Add your message here"
+    ```
+
+4. **Subir sus cambios a su repositorio:**
+    ```bash
+    git push origin feature/your-feature-name
+    ```
+
+5. **Crear un Pull Request:**
+    Abra un pull request desde su repositorio al repositorio principal.
 
 ## Licencia
 
-Este proyecto está bajo la licencia MIT. Consulta el archivo [LICENSE](LICENSE) para más detalles.
+Este proyecto tiene licencia MIT. Consulte el archivo [LICENSE](LICENSE) para obtener más detalles.
+
+## Contacto
+
+Si tiene alguna pregunta o comentario, no dude en ponerse en contacto:
+
+- **GitHub:** [Master-Chief131](https://github.com/Master-Chief131)
+- **Web Page** [luis-marquez.site](https://luis-marquez.site)
+
+---
+
+Gracias por utilizar ShopSmart. ¡Feliz compra!
